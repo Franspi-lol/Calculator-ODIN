@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,29 +8,44 @@
     <script src="scripts.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <section class="calculator">
         <div class="display">
             <p id="displayValue"></p>
         </div>
         <div class="buttons">
-            <button id="9" class="number" type="button">9</button>
-            <button id="8" class="number" type="button">8</button>
-            <button id="7" class="number" type="button">7</button>
-            <button id="6" class="number" type="button">6</button>
-            <button id="5" class="number" type="button">5</button>
-            <button id="4" class="number" type="button">4</button>
-            <button id="3" class="number" type="button">3</button>
-            <button id="2" class="number" type="button">2</button>
-            <button id="1" class="number" type="button">1</button>
-            <button id="0" class="number" type="button">0</button>
-            <button id="+" class="operator" type="button">+</button>
-            <button id="-" class="operator" type="button">-</button>
-            <button id="/" class="operator" type="button">/</button>
-            <button id="*" class="operator" type="button">*</button>
-            <button id="=" type="button">=</button>
-            <button id="clr" type="button">CLR</button>
+            <div class="numeros">
+                <div class="seven">
+                    <button id="9" class="number" type="button">9</button>
+                    <button id="8" class="number" type="button">8</button>
+                    <button id="7" class="number" type="button">7</button>
+                </div>
+                <div class="four">
+                    <button id="6" class="number" type="button">6</button>
+                    <button id="5" class="number" type="button">5</button>
+                    <button id="4" class="number" type="button">4</button>
+                </div>
+                <div class="one">
+                    <button id="3" class="number" type="button">3</button>
+                    <button id="2" class="number" type="button">2</button>
+                    <button id="1" class="number" type="button">1</button>
+                </div>
+                <div class="zero">
+                    <button id="0" class="number" type="button">0</button>
+                    <button id="." type="button">.</button>
+                </div>
+            </div>
+            <div class="operadores">
+                <button id="+" class="operator" type="button">+</button>
+                <button id="-" class="operator" type="button">-</button>
+                <button id="/" class="operator" type="button">/</button>
+                <button id="*" class="operator" type="button">*</button>
+                <button id="=" type="button">=</button>
+                <button id="clr" type="button">CLR</button>
+            </div>
         </div>
     </section>
 </body>
+
 </html>
