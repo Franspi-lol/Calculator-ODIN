@@ -1,3 +1,7 @@
+@font-face {
+    font-family: digital-7;
+    src: url(./assets/fonts/digital-7.ttf);
+}
 .calculator {
   border: solid;
   display: flex;
@@ -6,11 +10,14 @@
   height: 50rem;
   align-items: center;
   justify-content: center;
+  border-radius: 5%;
+  background-color: beige;
 }
 .display {
   border: solid;
   width: 90%;
   height: 10rem;
+  background-color: black;
 }
 .buttons {
   border: solid red;
@@ -18,6 +25,7 @@
   flex-flow: row;
   width: 90%;
   height: 35rem;
+  background-color: black;
 }
 
 .numeros {
@@ -35,6 +43,15 @@
   height: 100%;
   justify-content: space-around;
   align-items: center;
+  background-color: black;
+}
+.operator{
+    background-color: black;
+    color: white;
+}
+.number{
+    color: white;
+    background-color: gray;
 }
 .seven,
 .four,
@@ -56,7 +73,10 @@ body {
     flex: auto;
     height: 100%;
     width: 100%;
+    font-size: 2rem;
 }
 #displayValue{
     font-size: 3rem;
+    color: green;
+    font-family: digital-7;
 }
